@@ -19,8 +19,7 @@ class GameOverState: GameState {
         self.winner = winner
         self.gameViewController = gameViewController
     }
-
-
+    
     func begin() {
         gameViewController?.winnerLabel.isHidden = false
         

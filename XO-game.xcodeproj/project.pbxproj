@@ -16,6 +16,13 @@
 		29B9F0C225EA3C61006C4FA4 /* LogReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9F0C125EA3C61006C4FA4 /* LogReceiver.swift */; };
 		29B9F0C525EA3C96006C4FA4 /* LogInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9F0C425EA3C96006C4FA4 /* LogInvoker.swift */; };
 		29B9F0C825EA3D7F006C4FA4 /* LogFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9F0C725EA3D7F006C4FA4 /* LogFunc.swift */; };
+		A19F5AED25F230320012AE17 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19F5AEC25F230320012AE17 /* StartViewController.swift */; };
+		A19F5AF225F236E80012AE17 /* ComputerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19F5AF125F236E80012AE17 /* ComputerState.swift */; };
+		A19F5AF825F272520012AE17 /* GameInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19F5AF725F272520012AE17 /* GameInvoker.swift */; };
+		A19F5AFB25F273190012AE17 /* GameCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19F5AFA25F273190012AE17 /* GameCommand.swift */; };
+		A19F5B0225F277150012AE17 /* GameFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19F5B0125F277150012AE17 /* GameFunc.swift */; };
+		A19F5B0625F287DC0012AE17 /* PlayerTurnState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19F5B0525F287DC0012AE17 /* PlayerTurnState.swift */; };
+		A19F5B0925F2882A0012AE17 /* GameRunState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19F5B0825F2882A0012AE17 /* GameRunState.swift */; };
 		F874E4712224621100364CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874E4702224621100364CAE /* AppDelegate.swift */; };
 		F874E4732224621100364CAE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874E4722224621100364CAE /* GameViewController.swift */; };
 		F874E4762224621100364CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F874E4742224621100364CAE /* Main.storyboard */; };
@@ -42,6 +49,13 @@
 		29B9F0C125EA3C61006C4FA4 /* LogReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogReceiver.swift; sourceTree = "<group>"; };
 		29B9F0C425EA3C96006C4FA4 /* LogInvoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInvoker.swift; sourceTree = "<group>"; };
 		29B9F0C725EA3D7F006C4FA4 /* LogFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFunc.swift; sourceTree = "<group>"; };
+		A19F5AEC25F230320012AE17 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A19F5AF125F236E80012AE17 /* ComputerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerState.swift; sourceTree = "<group>"; };
+		A19F5AF725F272520012AE17 /* GameInvoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInvoker.swift; sourceTree = "<group>"; };
+		A19F5AFA25F273190012AE17 /* GameCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCommand.swift; sourceTree = "<group>"; };
+		A19F5B0125F277150012AE17 /* GameFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFunc.swift; sourceTree = "<group>"; };
+		A19F5B0525F287DC0012AE17 /* PlayerTurnState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTurnState.swift; sourceTree = "<group>"; };
+		A19F5B0825F2882A0012AE17 /* GameRunState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRunState.swift; sourceTree = "<group>"; };
 		F874E46D2224621100364CAE /* XO-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XO-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F874E4702224621100364CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F874E4722224621100364CAE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +91,9 @@
 				29B9F0AB25EA2A17006C4FA4 /* GameState.swift */,
 				29B9F0AF25EA2A90006C4FA4 /* PlayerState.swift */,
 				29B9F0B225EA2D71006C4FA4 /* GameOverState.swift */,
+				A19F5AF125F236E80012AE17 /* ComputerState.swift */,
+				A19F5B0525F287DC0012AE17 /* PlayerTurnState.swift */,
+				A19F5B0825F2882A0012AE17 /* GameRunState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -97,6 +114,9 @@
 				29B9F0C125EA3C61006C4FA4 /* LogReceiver.swift */,
 				29B9F0C425EA3C96006C4FA4 /* LogInvoker.swift */,
 				29B9F0C725EA3D7F006C4FA4 /* LogFunc.swift */,
+				A19F5AF725F272520012AE17 /* GameInvoker.swift */,
+				A19F5AFA25F273190012AE17 /* GameCommand.swift */,
+				A19F5B0125F277150012AE17 /* GameFunc.swift */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -125,6 +145,7 @@
 				29B9F0AA25EA2A0A006C4FA4 /* State */,
 				F874E4702224621100364CAE /* AppDelegate.swift */,
 				F874E4722224621100364CAE /* GameViewController.swift */,
+				A19F5AEC25F230320012AE17 /* StartViewController.swift */,
 				F874E4F02225DFF700364CAE /* Referee.swift */,
 				F874E4E62225CB3F00364CAE /* Models */,
 				F874E4E52225CB3100364CAE /* Views */,
@@ -239,15 +260,22 @@
 			files = (
 				F874E4732224621100364CAE /* GameViewController.swift in Sources */,
 				29B9F0C525EA3C96006C4FA4 /* LogInvoker.swift in Sources */,
+				A19F5B0925F2882A0012AE17 /* GameRunState.swift in Sources */,
 				F874E4DD2225C25D00364CAE /* GameboardPosition.swift in Sources */,
+				A19F5B0225F277150012AE17 /* GameFunc.swift in Sources */,
 				F874E4DF2225C76000364CAE /* MarkView.swift in Sources */,
+				A19F5AF825F272520012AE17 /* GameInvoker.swift in Sources */,
+				A19F5AF225F236E80012AE17 /* ComputerState.swift in Sources */,
+				A19F5B0625F287DC0012AE17 /* PlayerTurnState.swift in Sources */,
 				F874E4F12225DFF700364CAE /* Referee.swift in Sources */,
 				F874E4F52225E2CD00364CAE /* Gameboard.swift in Sources */,
 				29B9F0C225EA3C61006C4FA4 /* LogReceiver.swift in Sources */,
 				29B9F0B025EA2A90006C4FA4 /* PlayerState.swift in Sources */,
+				A19F5AED25F230320012AE17 /* StartViewController.swift in Sources */,
 				F874E4712224621100364CAE /* AppDelegate.swift in Sources */,
 				29B9F0B725EA34DF006C4FA4 /* Copying.swift in Sources */,
 				29B9F0C825EA3D7F006C4FA4 /* LogFunc.swift in Sources */,
+				A19F5AFB25F273190012AE17 /* GameCommand.swift in Sources */,
 				F874E4E22225CABF00364CAE /* OView.swift in Sources */,
 				F874E4F32225E0B100364CAE /* GameboardSize.swift in Sources */,
 				29B9F0BC25EA3B5A006C4FA4 /* LogAction.swift in Sources */,
