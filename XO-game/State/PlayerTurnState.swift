@@ -1,15 +1,15 @@
 //
-//  PlayerState.swift
+//  PlayerTurnState.swift
 //  XO-game
 //
-//  Created by Evgenii Semenov on 27.02.2021.
+//  Created by Константин Кузнецов on 05.03.2021.
 //  Copyright © 2021 plasmon. All rights reserved.
 //
 
 import Foundation
 
-class PlayerState: GameState {
-
+class PlayerTurnState: GameState {
+    
     var isMoveCompleted: Bool = false
     
     public let player: Player
@@ -36,22 +36,13 @@ class PlayerState: GameState {
             gameViewController?.firstPlayerTurnLabel.isHidden = true
             gameViewController?.secondPlayerTurnLabel.isHidden = false
         }
-        
         gameViewController?.winnerLabel.isHidden = true
     }
     
     func addMark(at position: GameboardPosition) {
-        
-        guard let gameBoardView = gameBoardView, gameBoardView.canPlaceMarkView(at: position) else {
-            return
-        }
-        
-        Log(action: .playerSetMark(player: player, position: position))
-        
         gameBoard?.setPlayer(player, at: position)
-        
-        gameBoardView.placeMarkView(markViewPrototype.copy(), at: position)
-        
         isMoveCompleted = true
     }
+    
+    
 }
